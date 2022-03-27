@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "fugasOne";
+    src: url(../public/fonts/FugazOne-Regular.ttf);
+}
