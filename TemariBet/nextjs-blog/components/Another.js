@@ -1,15 +1,15 @@
-import { Button } from 'antd';
+import { Button,Col,Row } from 'antd';
 import 'antd/dist/antd.css';
-const Another =()=>{
+const Another = () => {
     return (
-        <div className="flex  h-full p-10">
-            <div  className="basis-1/2">
-                
-                <div class=" px-10  justify-center">
+        <Row gutter={[8, 8]}>
+            <Col xs={24} xl={12}>
+                <div class=" px-32  justify-center">
                     <img src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-3-800x800.jpg" alt="..." class="rounded-full shadow-lg  max-w-full h-auto align-middle border-none" />
-            </div>
-        </div>
-            <div className="basis-1/2 justify-items-center px-10">
+                </div>
+
+            </Col>
+            <Col xs={24} xl={12}>
                 <div className="pt-6 pb-3">
                     <h1 className="text-7xl text-blue-900">We Prepare For Life.</h1>
                     <h1 className=" text-7xl text-white">Not just exam</h1>
@@ -20,11 +20,12 @@ const Another =()=>{
                     managed by Temaribet
                 </h3>
                 <br />
-                <div className="p-3 items-center"><Button style={{  background:"#1E2F97", borderColor:"#1E2F97"}} type="primary" size="large" shape="round">Get tutor</Button></div>
-            </div>
-            
+                <div className="p-3 items-center"><Button style={{ background: "#1E2F97", borderColor: "#1E2F97" }} type="primary" size="large" shape="round">Get tutor</Button></div>
 
-        </div>
+            </Col>
+
+        </Row>
+
     )
 }
 export default Another;
