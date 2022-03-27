@@ -7,12 +7,13 @@ import Work from "../components/Work";
 import Achievement from "../components/Achievement";
 import Feedback from "../components/Feedback";
 import Another from "../components/Another";
+import Footer from "../components/Footer";
 
 
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-x-hidden">
    <Header />
    <Cover />
    <Description />
@@ -22,9 +23,8 @@ export default function Home() {
    <Achievement />
    <Feedback />
    <Another />
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </>
+   <Footer />
+   </div>
+    
   )
 }
