@@ -9,7 +9,7 @@ const Service = () => {
         <div className="font-serif">
             <header className="p-6 text-6xl text-blue-900 ">Service</header>
             <Row gutter={[10, 24]} justify="space-around" >
-                <Col xs={16} xl={7}  style={{ background: "#F0F8FF" }}  >
+                <Col xs={16} xl={7}  style={{ padding:"2%", background: "#F0F8FF" }}  >
                     <h1 className="text-blue-900 p-1  font-medium text-2xl">Natural</h1>
                     <p className="text-gray-500 p-1 text-lg  border-gray-500">Laborum quis dolor pariatur duis amet mollit fficia. Magna dolore amet excepteur aute adipisicing fugiat. Nisi do non ea occaecat eiusmod non adipisicing nostrud.</p>
                     <hr />
@@ -26,7 +26,7 @@ const Service = () => {
                    <Button style={{ width: "100%", background: "#1E2F97", borderColor: "#1E2F97" }} type="primary" size="large" >Get Tutor</Button>
                 </Col>
 
-                <Col xs={16} xl={7} style={{ background: "#F0F8FF", }}   >
+                <Col xs={16} xl={7} style={{padding:"2%", background: "#F0F8FF", }}   >
                     <h1 className="text-blue-900 p-1  font-medium text-2xl">Social</h1>
                     <p className="text-gray-500 p-1 text-lg">Laborum quis dolor pariatur ur anim dolor ficia. Magna dolore amet excepteur aute adipisicing fugiat. Nisi do non ea occaecat eiusmod non adipisicing nostrud.</p>
                     <hr />
@@ -42,11 +42,11 @@ const Service = () => {
                     />
                     <Button style={{ width: "100%", background: "#1E2F97", borderColor: "#1E2F97" }} type="primary" size="large" >Get Tutor</Button>
                 </Col>
-                <Col xs={16} xl={7} style={{ background: "#F0F8FF" }}  >
+                <Col xs={16} xl={7} style={{padding:"2%", background: "#F0F8FF" }}  >
                     <h1 className="text-blue-900 p-1 font-medium text-2xl">Technology</h1>
                     <p className="text-gray-500 p-1 text-lg">Laborum quis dolor pariatur duis amet mollit velit excepteur consectetur anim dolor ipsum offfugiat. Nisi do non ea occaecat eiusmod non adipisicing nostrud.<br/></p>
                     <hr />
-                    <List
+                    <List 
                     style={{borderTopWidth:"thin",borderTopColor:"gray"}}
                         dataSource={Technology}
                         renderItem={item => (
