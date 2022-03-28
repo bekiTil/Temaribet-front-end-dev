@@ -19,10 +19,10 @@ const Feedback = () => {
         //         </Col>
         //     </Row>
         // </div>
-        <section className="bg-yellow-50 md:bg-gray-100">
+        <section className="bg-yellow-50 md:bg-gray-100 font-serif">
             <div className="container  py-12 mx-auto h-full">
                 <div className="mt-7 mx-auto">
-                    <h2 className="font-bold text-4xl  md:text-5xl lg:text-6px ">Why parents love <span className="text-yellow-300">temaribet</span></h2>
+                    <h2 className="font-semibold text-4xl  md:text-5xl lg:text-6px ">Why parents love <span className="text-yellow-300">temaribet</span></h2>
                 </div>
 
                 <div className="px-12 mt-20 mb-36">
