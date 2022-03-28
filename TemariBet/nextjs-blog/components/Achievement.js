@@ -1,10 +1,11 @@
 import { Button,List, Col, Row } from 'antd';
+import Stats from "./Statistics.js";
 const Achievement=()=>{
     return (
         <div className="p-6 bg-gradient-to-r from-blue-900 via-blue-900 to-black ">
             <div className="p-7">
-            <h1 className="text-4xl text-bold text-white pb-2 "> We are the little angel of your kids <br/>
-             but we only help you if you let us </h1>
+            <h1 className="text-5xl text-bold text-white pb-2 "> We are the little angel of your kids but we can <br/>
+            only help you if you let us </h1>
              <p className="text-xl text-white">loremAdipisicing incididunt labore cillum sit sunt ullamco anim ea co
              nsequat laboris proident consectetur. Id eiusmod sint ut dolor deserunt. Ullam
              co anim laborum pariatur sunt pariatur culpa ad dolore irure occaecat consequat.
@@ -15,22 +16,10 @@ const Achievement=()=>{
                 ipisicing eiusmod deserunt elit Lorem excepteur.a.</p>
              </div>
              <Row gutter={[16,16]}>
-                 <Col xl={6} xs={24}>
-                     <div className="text-6xl text-center  text-bold text-white"> 350+</div>
-                     <div className="text-4xl text-center  text-white"> Families</div>
-                 </Col>
-                 <Col xl={6} xs={24}>
-                     <div className="text-6xl text-center text-bold text-white"> 350+</div>
-                     <div className="text-4xl text-center  text-white"> Families</div>
-                 </Col>
-                 <Col xl={6} xs={24}>
-                     <div className="text-6xl text-center  text-bold text-white"> 350+</div>
-                     <div className="text-4xl text-center  text-white"> Families</div>
-                 </Col>
-                 <Col xl={6} xs={24} style={{justifyContent:"center"}}>
-                     <div className="text-6xl text-center  text-bold text-white"> 350+</div>
-                     <div className="text-4xl text-center  text-white"> Families</div>
-                 </Col>
+                 <Stats text = "FAMILIES"  numbers = "350+"></Stats>
+                 <Stats text = "SCHOOLS"  numbers = "50+"></Stats>
+                 <Stats text = "TUTORS"  numbers = "10,000+"></Stats>
+                 <Stats text = "VISION"  numbers = "1"></Stats>
              </Row>
              
 
