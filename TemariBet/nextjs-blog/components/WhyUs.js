@@ -1,5 +1,5 @@
 import {Row ,Image,Col} from "antd";
-import WhyUsComponent from "./child_components/WhyUsComponent";
+import WhyUsComponent from "./child_components/WhyUsComponent.js";
 
 const WhyUs = () => {
     return (
