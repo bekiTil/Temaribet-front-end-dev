@@ -1,25 +1,8 @@
 import { Col, Row } from 'antd';
 const Feedback = () => {
     return (
-        // <div className="py-10 ">
-
-        //     <Row gutter={[16, 16]} style={{ padding:"5%",background: "#F0F8FF" }} >
-        //         <Col xl={24} xs={24} >
-        //             <h1 className="text-4xl text-bold text-black pb-2 ">Why my parents love temaribet</h1>
-        //         </Col>
-        //         <Col xl={12} xs={24}>
-        //             <h1 className="text-2xl text-thin text-blue pb-2 ">Abinet Legesse</h1>
-        //             <h1 className="text-xl text-thin text-gray pb-2 ">Mother</h1>
-        //             <p>loremNon magna nulla et aute sunt non commodo et. Minim nostrud adipisicing sint occaecat pariatur Lorem do cupidatat. Cillum pariatur et irure sit enim dolor incididunt do exercitation qui ea aute irure. Dolor aliqua velit reprehenderit labore.</p>
-        //         </Col>
-        //         <Col xl={12} xs={24}>
-        //             <h1 className="text-2xl text-thin text-blue pb-2 ">Abinet Legesse</h1>
-        //             <h1 className="text-xl text-thin text-gray pb-2 ">Mother</h1>
-        //             <p>loremNon magna nulla et aute sunt non commodo et. Minim nostrud adipisicing sint occaecat pariatur Lorem do cupidatat. Cillum pariatur et irure sit enim dolor incididunt do exercitation qui ea aute irure. Dolor aliqua velit reprehenderit labore.</p>
-        //         </Col>
-        //     </Row>
-        // </div>
-        <section className="bg-yellow-50 md:bg-gray-100 font-serif">
+        
+        <section className="bg-yellow-50 md:bg-gray-100 font-serif mt-20">
             <div className="container  py-12 mx-auto h-full">
                 <div className="mt-7 mx-auto">
                     <h2 className="font-semibold text-4xl  md:text-5xl lg:text-6px ">Why parents love <span className="text-yellow-300">temaribet</span></h2>
@@ -33,16 +16,16 @@ const Feedback = () => {
                                     <p className="font-bold text-2xl">Abinet Legesse</p>
                                     <p className="-mt-6 lg:-mt-4 text-xl">Father</p>
                                 </div>
-
+                                
                                 <p className="mt-10 text-xl">
-                                    It was difficult to explain to them how the diagnosis of
-                                    certain death had actually given him life. While everyone
-                                    around him was in tears and upset, he actually felt more at
-                                    ease. The doctor said it would be less than a year. That gave
-                                    him a year to live, something he'd failed to do with his daily
-                                    drudgery of a routine that had passed as life until then. It
-                                    was difficult to explain to them how the diagnosis of certain
-                                    death had actually given him life. While everyone
+                                    We have found the approach of tutors at Temaribet 
+                                    to be student-centered. We had the opportunity to 
+                                    observe her tutorial session and it has been a great 
+                                    relief for us to see her enjoy learning with active 
+                                    participation throughtout her session. This helped 
+                                    Hananel to show significant improvement not only in 
+                                    her academic achievement but also her change of perspective to 
+                                    spend ample time working on her school activities.
                                 </p>
                             </div>
                         </div>
@@ -53,15 +36,11 @@ const Feedback = () => {
                                     <p className="font-bold text-2xl">Hananel Girma</p>
                                     <p className="-mt-6 lg:-mt-4 text-xl">Mother</p>
                                 </div>
+                                
                                 <p className="mt-10 text-xl">
-                                    It was difficult to explain to them how the diagnosis of
-                                    certain death had actually given him life. While everyone
-                                    around him was in tears and upset, he actually felt more at
-                                    ease. The doctor said it would be less than a year. That gave
-                                    him a year to live, something he'd failed to do with his daily
-                                    drudgery of a routine that had passed as life until then. It
-                                    was difficult to explain to them how the diagnosis of certain
-                                    death had actually given him life. While everyone
+                                    The tutorial helped me to improve my chemistry 
+                                    assessment. It become interesting and made me 
+                                    want to study more on my own.
                                 </p>
                             </div>
                         </div>

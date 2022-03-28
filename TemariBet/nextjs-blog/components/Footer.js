@@ -6,12 +6,12 @@ const Footer = () => {
                     <div className="w-full -mx-6 lg:w-2/5">
                         <div className="px-6">
                             <div>
-                                <a href="#" className="text-xl font-bold text-white dark:text-white hover:text-gray-700 dark:hover:text-gray-300">temaribet</a>
+                                <a href="#" className="text-xl font-bold font-fugasOne text-white dark:text-white hover:text-gray-700 dark:hover:text-gray-300">temaribet</a>
                             </div>
 
-                            <p className="max-w-s mt-2 text-white dark:text-gray-400">High achieving, decent and trained tutors at your home</p>
+                            <p className="font-serif opacity-60 max-w-s mt-2 text-white dark:text-gray-400">High achieving, decent and trained tutors at your home</p>
 
-                            <div className="flex mt-4 -mx-2">
+                            <div className="flex mt-4 -mx-2 font-serif">
                                 <a href="#" className="mx-2 text-white dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400" aria-label="Linkden">
                                     <svg className="w-4 h-4 fill-current" viewBox="0 0 512 512">
                                         <path d="M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.61C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.79,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM170.87,405.43H106.69V205.88h64.18ZM141,175.54h-.46c-20.54,0-33.84-15.29-33.84-34.43,0-19.49,13.65-34.42,34.65-34.42s33.85,14.82,34.31,34.42C175.65,160.25,162.35,175.54,141,175.54ZM405.43,405.43H341.25V296.32c0-26.14-9.34-44-32.56-44-17.74,0-28.24,12-32.91,23.69-1.75,4.2-2.22,9.92-2.22,15.76V405.43H209.38V205.88h64.18v27.77c9.34-13.3,23.93-32.44,57.88-32.44,42.13,0,74,27.77,74,87.64Z" />
@@ -33,36 +33,36 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="mt-6 lg:mt-0 lg:flex-1">
+                    <div className="mt-6 lg:mt-0 lg:flex-1 font-serif">
                         <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
                             <div>
-                                <h3 className="text-white uppercase dark:text-white">Home tutoring</h3>
-                                <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Get a tutor</a>
-                                <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Become a tutor</a>
-                                <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Partner with us</a>
+                                <h3 className="text-white text-md opacity-90 uppercase dark:text-white">Home tutoring</h3>
+                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Get a tutor</a>
+                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Become a tutor</a>
+                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Partner with us</a>
                             </div>
                             <div>
-                                <h3 className="text-white uppercase dark:text-white">Contact Us</h3>
-                                <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Fesitivall22, 3rd floor</a>
-                                <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">22 Mazoriya</a>
-                                <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Addis Ababa, Ethiopia</a>
+                                <h3 className="text-white text-md opacity-90 uppercase dark:text-white">Contact Us</h3>
+                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Fesitivall22, 3rd floor</a>
+                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">22 Mazoriya</a>
+                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Addis Ababa, Ethiopia</a>
 
-                                <a href="#" className="block mt-7 text-sm text-white dark:text-gray-400 hover:underline">P: +251940120591</a>
-                                <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">E: contact@temari-bet.com</a>
-                            </div>
-
-                            <div>
-                                <h3 className="text-white uppercase dark:text-white">Services</h3>
-                                <a href="#" className="block my-2 text-sm text-white dark:text-gray-400 hover:underline">eLearning</a>
-                                <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Tutoring</a>
-                                <a href="#" className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Meraki UI</a>
+                                <a href="#" className="block mt-7 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">P: +251940120591</a>
+                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">E: contact@temari-bet.com</a>
                             </div>
 
                             <div>
-                                <h3 className="text-white uppercase dark:text-white">About Us</h3>
-                                <span className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Mission and Vision</span>
-                                <span className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Who we serve</span>
-                                <span className="block mt-2 text-sm text-white dark:text-gray-400 hover:underline">Pricing</span>
+                                <h3 className="text-white text-md opacity-90 uppercase dark:text-white">Services</h3>
+                                <a href="#" className="block my-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">eLearning</a>
+                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Tutoring</a>
+                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Meraki UI</a>
+                            </div>
+
+                            <div>
+                                <h3 className="text-white text-md opacity-90 uppercase dark:text-white">About Us</h3>
+                                <span className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Mission and Vision</span>
+                                <span className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Who we serve</span>
+                                <span className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Pricing</span>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Footer = () => {
 
 
                 <div>
-                    <p className="text-center mt-20 text-white dark:text-white">© 2022 Temaribet.All rights reserved</p>
+                    <p className="text-center font-serif text-xl opacity-80 mt-20 text-white dark:text-white">© 2022 Temaribet.All rights reserved</p>
                 </div>
             </div>
         </footer>
