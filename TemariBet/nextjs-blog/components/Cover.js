@@ -7,7 +7,7 @@ const Cover = () => {
         
             <div className="bg-yellow-400 md:pt-10 min-h-screen">
                 <div className="items-center lg:flex min-h-screen">
-                    <div className="w-full sm:items-center lg:w-1/2 min-h-screen">
+                    <div className="w-full sm:items-center lg:w-1/2 ">
                         <div className="lg:w-full mx-5 md:mx-16 mt-5 md:mt-20 pt-40">
                             <h1 className=" text-blue-900 text-4xl lg:text-7xl font-medium font-serif">We prepare for life.</h1>
                             <h1 className=" text-white text-4xl lg:text-7xl font-medium font-serif ">Not just exam!</h1>
@@ -20,7 +20,7 @@ const Cover = () => {
 
                     <div className="flex items-center justify-center w-full md:mt-10 md:pt-28  lg:w-1/2">
                     <Image
-                        className="w-full h-full"
+                        className="w-full"
                         src="/temaribet.png.png"
                         alt="young girl image"
                         width={"450"}
