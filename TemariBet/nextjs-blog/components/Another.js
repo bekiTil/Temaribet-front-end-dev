@@ -12,7 +12,7 @@ const Another = () => {
           <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-2/5 lg:mr-8 lg:border-r-4">
             <Image
               className="w-full rounded-full"
-              src="/gettutor.jpg"
+              src="/another.jpg"
               alt="young girl image"
               width="450%"
               height = {"450"}

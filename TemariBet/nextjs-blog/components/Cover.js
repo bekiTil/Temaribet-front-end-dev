@@ -1,25 +1,32 @@
 import { Button, Row, Col } from 'antd';
-import Image from "next"
+import Image from "next/image"
 import 'antd/dist/antd.css';
+
 const Cover = () => {
     return (
         
-            <div className="bg-yellow-300 pt-10 ">
-                <div className="items-center lg:flex">
-                    <div className="w-full sm:items-center lg:w-1/2 ">
-                        <div className="lg:w-full pl-8">
-                            <h1 className=" text-blue-900 text-6xl font-medium font-serif  dark:text-white ">We Prepare For Life.</h1>
-                            <h1 className=" text-white text-6xl font-medium font-serif dark:text-white ">Not just exam</h1>
-                            <p className="mt-2 text-2xl font-serif text-blue-900 dark:text-gray-400">Top tutors from all over Addis Abeba
+            <div className="bg-yellow-400 md:pt-10 min-h-screen">
+                <div className="items-center lg:flex min-h-screen">
+                    <div className="w-full sm:items-center lg:w-1/2 min-h-screen">
+                        <div className="lg:w-full mx-5 md:mx-16 mt-5 md:mt-20 pt-40">
+                            <h1 className=" text-blue-900 text-4xl lg:text-7xl font-medium font-serif">We prepare for life.</h1>
+                            <h1 className=" text-white text-4xl lg:text-7xl font-medium font-serif ">Not just exam!</h1>
+                            <p className="mt-2 text-2xl font-serif text-blue-900">Top tutors from all over Addis Abeba
                                 <br />
                                 managed by Temaribet</p>
-                            <button className=" px-11 py-2 rounded-full font-serif mt-6 text-lg md:text-xl font-medium text-white uppercase transition-colors duration-200 transform bg-blue-900 lg:w-auto hover:bg-blue-700  focus:outline-none focus:bg-blue-600">Get tutor</button>
+                            <button className=" px-10 py-4 rounded-full font-serif mt-6 text-xl md:text-4xl font-bold text-white transition-colors duration-200 transform bg-blue-900 lg:w-auto hover:bg-blue-700  focus:outline-none focus:bg-blue-600">Get tutor</button>
                         </div>
                     </div>
 
-                    <div className="flex items-center justify-center w-full mt-6  lg:mt-0 lg:w-1/2">
-                        
-                        <img className="object-scale-down" src="https://www.picng.com/upload/children/png_children_36648.png" alt="Catalogue-pana.svg" />
+                    <div className="flex items-center justify-center w-full md:mt-10 md:pt-28  lg:w-1/2">
+                    <Image
+                        className="w-full"
+                        src="/temaribet.png.png"
+                        alt="young girl image"
+                        width={"450"}
+                        height = {"550"}
+                    />
+
                     </div>
                 </div>
             </div>

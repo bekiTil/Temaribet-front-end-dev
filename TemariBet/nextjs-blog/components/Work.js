@@ -6,7 +6,7 @@ import 'antd/dist/antd.css';
 const Work = () => {
     
     return (
-        <div className='ml-20 mt-20 mb-20'>
+        <div className='mx-5 md:mx-16 mt-20 mb-20'>
             <header className='text-3xl lg:text-5xl font-serif text-blue-900'>How we will work togather?</header>
             <Row gutter={[10, 24]} justify="space-around" >
                 <Col xs={16} xl={6} 
@@ -23,7 +23,7 @@ const Work = () => {
                     <WorkTogatherCard 
                         title = "Find a match"
                         description = "We select the perfect tutor in 48 hours."
-                        image = "/findamatch.png"
+                        image = "/findamatch.jpg"
                     />
                 </Col>
 
