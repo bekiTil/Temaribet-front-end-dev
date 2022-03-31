@@ -2,13 +2,13 @@ import { Button,List, Col, Row } from 'antd';
 import Stats from "./child_components/Statistics.js";
 const Achievement=()=>{
     return (
-        <div className="pb-40 pt-9 pb-20 bg-gradient-to-r font-serif from-[#142F43] via-black-900 to-black ">
+        <div className="pb-40 pt-9 bg-gradient-to-r font-serif from-[#142F43] via-black-900 to-black ">
             <div className='ml-5 md:ml-16'>
                 <Col sm = {24}  style={{justifyContent:"center"}}>
                     <div>
-                    <h1 className="text-3xl sm:text-4xl  md:text-4xl lg:text-6xl  text-bold text-white pt-4 pb-1  "> We are the little angel of your kids but we can
+                    <h1 className="text-3xl sm:text-2xl  md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-6xl  text-bold text-white pt-4 pb-1  "> We are the little angel of your kids but we can
                     only help if you let us </h1>
-                    <p className="text-lg sm:text-xl  md:text-xl  lg:text-4xl text-gray-400 2xl:pr-96  pt-0 ">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. 
+                    <p className="text-lg sm:text-xl  md:text-xl  lg:text-2xl xl:text-3xl 2xl:text-4xl  text-gray-400 2xl:pr-96  pt-0 ">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. 
                             Junk MTV quiz graced by fox whelps. Bawlds jog, flick quartz,
                             vex nymphs. Waltz, bad nymph, for quick jigs vex! For nymphs grap quick-jived </p>
                     </div>

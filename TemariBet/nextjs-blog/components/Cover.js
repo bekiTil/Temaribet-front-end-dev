@@ -14,17 +14,17 @@ const Cover = () => {
                             <p className="mt-2 text-2xl font-serif text-blue-900">Top tutors from all over Addis Abeba
                                 <br />
                                 managed by Temaribet</p>
-                            <button className=" px-10 py-4 rounded-full font-serif mt-6 text-xl md:text-4xl font-bold text-white transition-colors duration-200 transform bg-blue-900 lg:w-auto hover:bg-blue-700  focus:outline-none focus:bg-blue-600">Get tutor</button>
+                            <button className=" px-10 py-4 mb-6 rounded-full font-serif mt-6 text-xl md:text-4xl font-bold text-white transition-colors duration-200 transform bg-blue-900 lg:w-auto hover:bg-blue-700  focus:outline-none focus:bg-blue-600">Get tutor</button>
                         </div>
                     </div>
 
                     <div className="flex items-center justify-center w-full md:mt-10 md:pt-28  lg:w-1/2">
                     <Image
-                        className="w-full"
+                        className="w-full h-full"
                         src="/temaribet.png.png"
                         alt="young girl image"
                         width={"450"}
-                        height = {"550"}
+                        height = {"590"}
                     />
 
                     </div>

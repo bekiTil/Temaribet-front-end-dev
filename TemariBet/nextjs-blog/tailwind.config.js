@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        // Configure your color palette here
+         'pro-yellow':'#fed607',
+        },
       fontFamily: {
         fugasOne: ["fugasOne", "serif"],
       },

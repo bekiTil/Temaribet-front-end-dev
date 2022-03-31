@@ -3,10 +3,10 @@ const Header = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <nav className="opacity-100 overflow-x-hidden fixed top-0 left-0 right-0 z-50 flex  items-center justify-between px-2 py-0 bg-yellow-400 -m-2 ">
-      <div className="container px-5 mx-auto flex flex-wrap items-center justify-between">
+      <div className="container  mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <a
-            className="text-3xl md:text-5xl py-5 font-fugasOne font-thin leading-relaxed inline-block mr-4 py-1 whitespace-nowrap  text-white"
+            className="text-3xl md:text-4xl  py-1 font-fugasOne font-thin leading-relaxed inline-block mr-4  whitespace-nowrap  text-white"
             href="#"
           >
             temaribet
