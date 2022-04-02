@@ -20,7 +20,7 @@ const Cover = () => {
 
                     <div className="flex items-center justify-center w-full md:mt-10 md:pt-28  lg:w-1/2">
                     <Image
-                        className="w-full"
+                        className="w-full mb-0:"
                         src="/temaribet.png.png"
                         alt="young girl image"
                         width={"450"}

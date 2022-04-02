@@ -4,12 +4,12 @@ const Footer = () => {
             <div className="container px-6 py-4 mx-auto">
                 <div className="lg:flex mt-7">
                     <div className="w-full -mx-6 lg:w-2/5">
-                        <div className="px-6">
+                        <div className="px-4">
                             <div>
                                 <a href="#" className="text-xl font-bold font-fugasOne text-white dark:text-white hover:text-gray-700 dark:hover:text-gray-300">temaribet</a>
                             </div>
 
-                            <p className="font-serif opacity-60 max-w-s mt-2 text-white dark:text-gray-400">High achieving, decent and trained tutors at your home</p>
+                            <p className="font-serif opacity-60 pr-1 max-w-s mt-2 text-white dark:text-gray-400">High achieving, decent and trained tutors at your home</p>
 
                             <div className="flex mt-4 -mx-2 font-serif">
                                 <a href="#" className="mx-2 text-white dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400" aria-label="Linkden">
