@@ -2,19 +2,19 @@ import { Col, Row } from 'antd';
 const Feedback = () => {
     return (
         
-        <section className="bg-yellow-50 md:bg-gray-100 font-serif mt-20">
+        <section className="bg-yellow-50 md:bg-[#ECF2FB] font-serif mt-20 h-screen">
             <div className="container  py-12 mx-auto h-full">
                 <div className="mt-7 mx-auto">
-                    <h2 className="font-semibold text-4xl  md:text-5xl lg:text-6px ">Why parents love <span className="text-yellow-300">temaribet</span></h2>
+                    <h2 className="font-semibold text-4xl  md:text-5xl lg:text-6px text-[#1A3765]">Why parents love <span className="text-yellow-300">temaribet</span></h2>
                 </div>
 
                 <div className="px-12 mt-20 mb-36">
-                    <div className="lg:flex mt-7">
+                    <div className="lg:flex mt-7 text-blue-900">
                         <div className="w-full  lg:w-1/2">
                             <div className="p-8 lg:p-12">
                                 <div>
                                     <p className="font-bold text-2xl">Abinet Legesse</p>
-                                    <p className="-mt-6 lg:-mt-4 text-xl">Father</p>
+                                    <p className="-mt-6 lg:-mt-4 text-xl text-black opacity-30">Father</p>
                                 </div>
                                 
                                 <p className="mt-10 text-xl">
@@ -34,7 +34,7 @@ const Feedback = () => {
                             <div className="p-8 lg:p-12 lg:ml-5">
                                 <div>
                                     <p className="font-bold text-2xl">Hananel Girma</p>
-                                    <p className="-mt-6 lg:-mt-4 text-xl">Mother</p>
+                                    <p className="-mt-6 lg:-mt-4 text-xl text-black opacity-30">Student</p>
                                 </div>
                                 
                                 <p className="mt-10 text-xl">

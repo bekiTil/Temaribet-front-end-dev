@@ -9,7 +9,7 @@ const Service = () => {
     const Technology = ["Basic Programming", "App Development", "Website Development", ""]
     return (
         <div className="font-serif mx-5 lg:mx-16">
-            <header className=" text-5xl text-blue-900 mb-10 ">Service</header>
+            <header className=" text-5xl text-[#1A3765] mb-10 ">Service</header>
             <Row gutter={[0, 24]} justify="space-between" >
                 <Col xs={24}  lg={7}  xl={7}>
                     <ServiceCard 

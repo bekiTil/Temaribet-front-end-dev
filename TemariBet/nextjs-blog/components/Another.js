@@ -14,14 +14,14 @@ const Another = () => {
               className="w-full rounded-full"
               src="/another.jpg"
               alt="young girl image"
-              width="450%"
+              width="450"
               height = {"450"}
             />
           </div>
 
           <div className="w-full lg:w-1/2">
             <div className="lg:max-w-lg mt-20 lg:mt-0">
-              <h3 className="text-5xl text-center lg:text-left font-bold text-blue-900">
+              <h3 className="text-5xl text-center lg:text-left font-bold text-[#1A3765]">
                 Get the perfect tutor
               </h3>
 
@@ -29,11 +29,11 @@ const Another = () => {
                 for your child
               </h3>
 
-              <p className="text-2xl text-center lg:text-left text-blue-900">
+              <p className="text-2xl text-center lg:text-left text-[#1A3765]">
                 Top tutors from all over Addis Ababa managed by Temaribet.
               </p>
               <div className = "text-center lg:text-left">
-                <button className=" px-12 py-3 rounded-full mt-20 text-4xl font-bold text-white  transition-colors duration-200 transform bg-blue-900 lg:w-auto hover:bg-blue-700  focus:outline-none focus:bg-blue-600">
+                <button className=" px-12 py-3 rounded-full mt-20 text-4xl font-bold text-white  transition-colors duration-200 transform text-[#1A3765] lg:w-auto hover:bg-blue-700  focus:outline-none focus:bg-blue-600">
                   Get tutor
                 </button>
               </div>

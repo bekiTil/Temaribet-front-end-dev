@@ -2,7 +2,7 @@ import React from "react";
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <nav className="opacity-100 overflow-x-hidden fixed top-0 left-0 right-0 z-50 flex  items-center justify-between px-2 py-0 bg-yellow-400 -m-2 ">
+    <nav className="opacity-100 overflow-x-hidden fixed top-0 left-0 right-0 z-50 flex  items-center justify-between px-2 py-0 bg-[#FED607] -m-2 ">
       <div className="container  mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <a
@@ -65,7 +65,7 @@ const Header = () => {
               </a>
             </li>
             <li className="pl-2  nav-item h-full">
-              <button className="rounded-full px-10 py-1 font-serif tracking-wide text-2xl text-white capitalize transition-colors duration-200 transform bg-blue-900  hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+              <button className="rounded-full px-10 py-1 font-serif tracking-wide text-2xl text-white capitalize transition-colors duration-200 transform bg-[#1A3765]  hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
                 Register
               </button>
             </li>

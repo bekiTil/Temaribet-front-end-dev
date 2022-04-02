@@ -3,7 +3,7 @@ import WhyUsComponent from "./child_components/WhyUsComponent.js";
 
 const WhyUs = () => {
     return (
-        <div className="bg-slate-200/75  py-12 my-20">
+        <div className="bg-[#EAEDF1]  py-12 my-20">
             <header className="pt-1 pb-11 mx-5 md:mx-16 text-3xl md:text-5xl text-blue-900 font-semibold font-serif">Why Us?</header>
             <div className="mx-5 md:mx-16 mt-5">
                 <Row gutter={[8,8]} justify={"space-between"} >

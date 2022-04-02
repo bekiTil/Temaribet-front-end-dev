@@ -7,8 +7,8 @@ const WorkTogatherCard = (props) => {
     <div className='flex flex-col items-center font-serif mt-10'>
         <Image src={props.image} alt="me"  width="300" height = "250" />
         <div className='px-12'>
-          <h1 className='text-blue-900 text-xl font-bold mt-5'>{props.title}</h1>
-          <p className='text-blue-900 text-base'>{props.description}</p>
+          <h1 className='text-[#1A3765] text-xl font-bold mt-5'>{props.title}</h1>
+          <p className='text-[#1A3765] text-base'>{props.description}</p>
         </div>
         
          
