@@ -1,13 +1,14 @@
-import Cover from "../components/Cover";
-import Description from "../components/Description";
-import Header from "../components/Header";
-import Service from "../components/Service";
-import WhyUs from "../components/WhyUs";
-import Work from "../components/Work";
-import Achievement from "../components/Achievement";
-import Feedback from "../components/Feedback";
-import Another from "../components/Another";
-import Footer from "../components/Footer";
+import React from "react";
+import Cover from "../components/HomePageComponents/Cover";
+import Description from "../components/HomePageComponents/Description";
+import Header from "../components/HomePageComponents/Header";
+import Service from "../components/HomePageComponents/Service";
+import WhyUs from "../components/HomePageComponents/WhyUs";
+import Work from "../components/HomePageComponents/Work";
+import Achievement from "../components/HomePageComponents/Achievement";
+import Feedback from "../components/HomePageComponents/Feedback";
+import Another from "../components/HomePageComponents/Another";
+import Footer from "../components/HomePageComponents/Footer";
 
 
 

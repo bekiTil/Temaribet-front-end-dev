@@ -9,7 +9,7 @@ const ServiceCard = (props) => {
           <p className="text-gray-500  font-sans text-lg  border-gray-500">{props.description}</p>
           <hr style={{border: "1px solid lightgray"}} />
           {
-            props.subjects.map(item => (<li className = "text-[#1A3765] text-lg  lg:text-2xl m-5" style={{listStyleImage: "url('/right .png')", listStyleType: 'none'}}>{item}</li>))
+            props.subjects.map(item => (<li key={item} className = "text-[#1A3765] text-lg  lg:text-2xl m-5" style={{listStyleImage: "url('/right .png')", listStyleType: 'none'}}>{item}</li>))
           }
           
         </div>

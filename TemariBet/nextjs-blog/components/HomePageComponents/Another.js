@@ -33,7 +33,7 @@ const Another = () => {
                 Top tutors from all over Addis Ababa managed by Temaribet.
               </p>
               <div className = "text-center lg:text-left">
-                <button className=" px-12 py-3 rounded-full mt-20 text-4xl font-bold text-white  transition-colors duration-200 transform text-[#1A3765] lg:w-auto hover:bg-blue-700  focus:outline-none focus:bg-blue-600">
+                <button className=" px-12 py-3 rounded-full mt-20 text-4xl font-bold text-white  transition-colors duration-200 transform bg-[#1A3765] lg:w-auto hover:bg-blue-700  focus:outline-none focus:bg-blue-600">
                   Get tutor
                 </button>
               </div>

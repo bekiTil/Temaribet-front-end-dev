@@ -2,7 +2,7 @@ import { Col, Row } from 'antd';
 const Feedback = () => {
     return (
         
-        <section className="bg-yellow-50 md:bg-[#ECF2FB] font-serif mt-20 h-screen">
+        <section className="bg-yellow-50 md:bg-[#ECF2FB] font-serif mt-20 min-h-screen">
             <div className="container  py-12 mx-auto h-full">
                 <div className="mt-7 mx-auto">
                     <h2 className="font-semibold text-4xl  md:text-5xl lg:text-6px text-[#1A3765]">Why parents love <span className="text-yellow-300">temaribet</span></h2>
