@@ -6,7 +6,7 @@ const Another = () => {
   
   return (
 
-    <section className="bg-white dark:bg-gray-800 font-serif">
+    <section className="bg-white font-serif">
       <div className="container px-12 py-16 mx-auto">
         <div className="items-center lg:flex">
           <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-2/5 lg:mr-8 lg:border-r border-gray-500 ">
