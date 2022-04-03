@@ -4,8 +4,8 @@ import Image from 'next/image'
 const Header = () => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <nav className="opacity-100 overflow-x-hidden fixed top-0 left-0 right-0 z-50 flex  items-center justify-between px-2 py-5 -m-2 ">
-      <div className="container  mx-10 flex flex-wrap items-center justify-between">
+    <nav className="opacity-100 mx-12 overflow-x-hidden sticky top-0 left-0 right-0 z-50 flex  items-center justify-between py-5 -m-2 bg-white">
+      <div className="container  flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <a
             className="text-3xl md:text-5xl px-0  py-1 font-fugasOne font-thin leading-relaxed inline-block mr-4  whitespace-nowrap  text-yellow-300"
@@ -33,11 +33,11 @@ const Header = () => {
             (navbarOpen ? " flex" : " hidden")
           }
         >
-        <div className="pt-4 flex flex-col lg:flex-row list-none lg:ml-auto">
-          <Image className='nav-item rounded-full' src={"/another.jpg"} alt ={"profile image"} width = {70} height = {70} />
-          <div className='nav-item mx-5 flex flex-col justify-center'>
-            <h1 className='text-xl'>Selam Getu</h1>
-            <p className='text-base'>Student</p>
+        <div className="flex flex-col md:flex-row list-none ml-auto">
+          <Image className='rounded-full' src={"/another.jpg"} alt ={"profile image"} width = {80} height = {80} />
+          <div className='flex flex-col ml-4 justify-center font-serif'>
+            <h1 className='text-xl mb-0 font-bold'>Selam Getu</h1>
+            <p className='text-sm'>Student</p>
           </div>
         </div>
         </div>

@@ -4,22 +4,22 @@ import ProfileCard from './childComponents/ProfileCard'
 
 const CardView = () => {
   return (
-    <div>
+    <div className='mt-6'>
         <Row gutter={[8,20]} justify={"space-between"} >
 
-            <Col xs={24} xl={8} md={7}  >
+            <Col xs={24} xl={8} md={12}  >
                 <ProfileCard />
                 <ProfileCard />
                 <ProfileCard />
             </Col>
                 
-            <Col xs={24} xl={8} md={7}  >
+            <Col xs={24} xl={8} md={12}  >
                 <ProfileCard />
                 <ProfileCard />
                 <ProfileCard />
             </Col> 
 
-            <Col xs={24} xl={8} md={7}  >
+            <Col xs={24} xl={8} md={12}  >
                 <ProfileCard />
                 <ProfileCard />
                 <ProfileCard />
