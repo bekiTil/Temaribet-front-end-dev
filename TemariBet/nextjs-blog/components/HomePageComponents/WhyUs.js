@@ -11,7 +11,7 @@ const WhyUs = () => {
                         <WhyUsComponent 
                                 title = "Handpicked Tutors"
                                 description = "The best tutor selected from 10,000 of our tutors."
-                                image = "/pngegg.jpg"
+                                image = "/passionate.png"
                             />
                     </Col>
 
@@ -19,7 +19,7 @@ const WhyUs = () => {
                         <WhyUsComponent 
                                 title = "Decent"
                                 description = "A tutor with good character, mindset and discipline."
-                                image = "/decent.png"
+                                image = "/suitcase.png"
                             />
                     </Col> 
 
@@ -27,7 +27,7 @@ const WhyUs = () => {
                         <WhyUsComponent 
                             title = "Progress Tracked"
                             description = "Every topic covered are stored in our database so that the parent could check."
-                            image = "/pngegg.png"
+                            image = "/neprogree.png"
                         />
                     </Col>
 
@@ -35,7 +35,7 @@ const WhyUs = () => {
                         <WhyUsComponent 
                             title = "Trained"
                             description = "Equipped with methods, techniques and ways to give the highest quality tutoring in the country."
-                            image = "/pngegg.png"
+                            image = "/upstair.png"
                         />
                     </Col>
                 </Row>

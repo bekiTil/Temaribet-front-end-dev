@@ -7,7 +7,7 @@ const WhyUsComponent = (props) => {
         <Image src={props.image} alt="Handpicked tutor image"  width="150" height = "150"/>
         
         <h1 className='text-[#1A3765] text-base lg:text-xl text-center font-bold font-serif mt-3'>{props.title}</h1>
-        <p className='text-[#1A3765] text-sm text-center lg:text-base
+        <p className='text-[#74a6f5] text-sm text-center lg:text-base
          font-serif'>{props.description}</p>
     
     </div>

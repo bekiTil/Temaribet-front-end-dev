@@ -6,7 +6,7 @@ import ServiceCard from './child_components/ServiceCard';
 const Service = () => {
     const Natural = ["Math", "Physics", "Chemistry", "Biology"]
     const Social = ["History", "Geography", "Economics", "Civics"]
-    const Technology = ["Basic Programming", "App Development", "Website Development", ""]
+    const Technology = ["Basic Programming", "App Development", "Website Development"]
     return (
         <div className="font-serif mx-5 lg:mx-16">
             <header className=" text-5xl text-[#1A3765] mb-10 ">Service</header>
