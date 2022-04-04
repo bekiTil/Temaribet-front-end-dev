@@ -55,7 +55,7 @@ const Footer = () => {
                                 <h3 className="text-white text-md opacity-90 uppercase dark:text-white">Services</h3>
                                 <a href="#" className="block my-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">eLearning</a>
                                 <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Tutoring</a>
-                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Meraki UI</a>
+                                
                             </div>
 
                             <div>
