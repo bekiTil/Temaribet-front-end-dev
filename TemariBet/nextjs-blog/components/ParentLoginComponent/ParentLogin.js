@@ -1,33 +1,12 @@
-<<<<<<< HEAD
-import Page11 from "./child_components/page11";
-
-function ParentLogin() {
-  return (
-    <header class="bg-white dark:bg-gray-800">
-      <div class="lg:flex">
-        <Page11 />
-
-        <div class="w-full h-64 lg:w-1/2 lg:h-auto">
-          <div
-            class="w-full h-full bg-contain bg-no-repeat bg-fixed "
-            style={{ backgroundImage: `url("/parents.jpg" )` }}
-          >
-            <div class="w-full h-full bg-black opacity-25"></div>
-          </div>
-        </div>
-      </div>
-    </header>
-  );
-=======
 import Image from "next/image";
-
+import Page1 from "./child_components/page1";
 function ParentLogin() {
   return <div class="flex rounded-lg shadow-lg w-full  bg-white sm:mx-0" style={{height: "680px"}}>
               <div class="flex flex-col w-full  lg:w-1/2 xl:w-3/5  p-4 bg-[#FED607]">
                   <div class="flex flex-col flex-1 justify-center mb-8">
-                      <h1 class="text-4xl text-center font-thin">Welcome Back</h1>
+                      
                       <div class="w-full mt-4">
-                          <form class="form-horizontal w-3/4 mx-auto" method="POST" action="#">
+                          {/* <form class="form-horizontal w-3/4 mx-auto" method="POST" action="#">
                               <div class="flex flex-col mt-4">
                                   <input id="email" type="text" class="flex-grow h-8 px-2 border rounded border-grey-400" name="email" value="" placeholder="Email" />
                               </div>
@@ -42,12 +21,10 @@ function ParentLogin() {
                                       Login
                                   </button>
                               </div>
-                          </form>
-                          <div class="text-center mt-4">
-                              <a class="no-underline hover:underline text-blue-dark text-xs" href="{{ route('password.request') }}">
-                                  Forgot Your Password?
-                              </a>
-                          </div>
+                          </form> */}
+
+                          <Page1 />
+
                       </div>
                   </div>
               </div>
@@ -56,7 +33,7 @@ function ParentLogin() {
      
   
   
->>>>>>> 98c8a7cdcb27a1f14dcc05fb84fa82c731d49568
+
 }
 
 export default ParentLogin;
