@@ -7,8 +7,8 @@ export default function Container() {
     <div className="px-8 md:px-28 h-screen ">
       <Header />
       <ParentLogin />
-    
       <Footer />
     </div>
   );
 }
+
