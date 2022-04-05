@@ -31,7 +31,7 @@ const Header = () => {
             (navbarOpen ? " flex" : " hidden")
           }
         >
-          <ul className="mb-0 flex flex-col items-center justify-center lg:flex-row text-2xl lg:text-3xl xl:text-4xl list-none lg:ml-auto">
+          <ul className="mb-0 flex flex-col items-center justify-center lg:flex-row text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl list-none lg:ml-auto">
             <li className="nav-item h-full">
               <a
                 className="px-3 py-1  font-serif flex items-center  text-blue-900 opacity-40 font-semibold leading-snug  hover:opacity-75"
