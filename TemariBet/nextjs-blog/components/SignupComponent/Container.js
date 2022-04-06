@@ -2,45 +2,81 @@ export default function Container() {
     return (
         <>
 
-            <div className="font-serif overflow-y-hidden">
-                <div className=" min-h-screen p-4 py-0 flex justify-center items-center">
-                    <div className="p-3 items-center sm:w-2/5 md:w-2/5 lg:w-1/3 xl:w-1/4 2xl:w-1/4 bg-white  max-w-6xl pb-10">
-                        <div className="flex justify-center mb-3 ">
-                            <h1 className="font-fugasOne  text-4xl text-[#FED607]">temaribet</h1>
-                        </div>
-                        <div className="flex justify-center mb-3">
-                            <h2> don't have an account? <a className="text-[#1A3765] p-2 font-semibold text-lg" href="">Sign up</a></h2>
-                        </div>
-                        <label className="justify-start my-6  ">FirstName</label>
-                        <input type="text" className="h-12 mt-3 w-full border border-slate-500 px-3 my-3 bg-slate-200 back focus:border-blue-100" placeholder="First Name" />
-                        <label className="justify-start my-6  ">LastName</label>
-                        <input type="text" className="h-12 mt-3 w-full border border-slate-500 px-3 my-3 bg-slate-200 back focus:border-blue-100" placeholder="Last Name" />
-                        <label className="justify-start my-6  ">Email</label>
-                        <input type="text" className="h-12 mt-3 w-full border border-slate-500 px-3 my-3 bg-slate-200 back focus:border-blue-100" placeholder="Email" />
-                        <label className="justify-start my-6">Password</label>
-                        <input type="password" className="h-12 mt-3  w-full border px-3 my-3 border-slate-500 bg-slate-200 focus:border-blue-100" placeholder="Password" />
-                        <label className="justify-start my-6  ">Confirm Password</label>
-                        <input type="password" className="h-12 mt-3 w-full border border-slate-500 px-3 my-3 bg-slate-200 back focus:border-blue-100" placeholder="Password" />
 
-                        
-                        <button className="uppercase h-12 mt-5 text-white w-full bg-[#1A3765] hover:bg-blue-900">Signup</button>
-                        <div className="flex justify-between items-center mt-3">
-                            <hr className="w-full" /> <span className="p-2 text-gray-400 mb-1">or</span>
-                            <hr className="w-full" />
-                        </div>
-                        <button className=" border-2 flex flex-row items-center  h-12 mt-3 text-[#1A3765] w-full  bg-white hover:bg-blue-900 hover:text-white">
-                            <span className="flex-none px-3" >
-                                <i className="fab fa-facebook-f"></i></span>
-                            <span className="grow justify-center">Sign in with Facebook</span></button>
-                        <button className=" border-2 flex flex-row items-center  h-12 mt-3 text-[#1A3765] w-full  bg-white hover:bg-blue-900 hover:text-white">
-                            <span className="flex-none px-3"><i className="fa-brands fa-google"></i></span><span className="grow justify-center"> Sign in with Google</span></button>
-                        <p className="mt-10 flex justify-center text-center text-gray-500 text-xs">
-                            &copy;2020 Acme Corp. All rights reserved.
-                        </p>
+            <div className="  mx-auto   bg-white sm:bg-white md:bg-white lg:bg-[#f1f1f1]">
+                <div className="">
+                    <div className="max-w-lg mx-auto">
+                        <a href="#">
+                            <h1 className="text-4xl lg:text-5xl font-fugasOne text-[#FED607] text-center">temaribet</h1>
+                        </a>
+                    </div>
+                    <div className="max-w-lg mx-auto text-center  mb-2">
+                        <p className="">Don't have an account? <a href="#" className="font-bold hover:underline">Sign up</a>.</p>
                     </div>
 
+                    <div className=" max-w-4xl  mx-auto    dark:bg-gray-800 bg-white   p-8 md:p-10 md:px-20 my-2 rounded-3xl lg:shadow-2xl ">
+
+                        <div className="mt-2">
+                            <form method="POST" action="#">
+                                <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
+                                    <div>
+                                        <label className="block  mb-1 " for="firstName">First Name</label>
+                                        <input id="firstName" type="text" className="block bg-[#f3f5f8]  w-full text-gray-700 focus:outline-none  border border-[#cfd5df] focus:border-gray-900 transition duration-500 px-3 pb-3" />
+                                    </div>
+
+                                    <div>
+                                        <label className="block  mb-1" for="lastName">Last Name</label>
+                                        <input id="lastName" type="text" className="block bg-[#f3f5f8]  w-full text-gray-700 focus:outline-none  border border-[#cfd5df] focus:border-gray-900 transition duration-500 px-3 pb-3" />
+                                    </div>
+
+                                    <div>
+                                        <label className="block  mb-1" for="email">Email</label>
+                                        <input id="email" type="email" className="bg-[#f3f5f8]  w-full text-gray-700 focus:outline-none  border border-[#cfd5df] focus:border-gray-900 transition duration-500 px-3 pb-3" />
+                                    </div>
+                                    <div>
+                                    </div>
+                                    <div>
+                                        <label className="block  mb-1" for="password">Password</label>
+                                        <input id="password" type="password" className="bg-[#f3f5f8]  w-full text-gray-700 focus:outline-none  border border-[#cfd5df] focus:border-gray-900 transition duration-500 px-3 pb-3" />
+                                    </div>
+                                    <div>
+                                        <label className="block  mb-1" for="password confirm">Password Confirmation </label>
+                                        <input id="password confirm" type="password" className="bg-[#f3f5f8]  w-full text-gray-700 focus:outline-none  border border-[#cfd5df] focus:border-gray-900 transition duration-500 px-3 pb-3" />
+                                    </div>
+                                </div>
+                                <div className="lg:max-w-xs lg:mx-auto pt-5">
+                                    <div>
+                                <button className="uppercase h-12 mt-2 text-white w-full bg-[#1A3765] hover:bg-blue-900">login</button>
+                                
+                                </div><div className="flex justify-between items-center mt-2">
+                                    <hr className="w-full" /> <span className="p-2 text-2xl text-gray-400 mb-1">or</span>
+                                    <hr className="w-full" />
+                                </div>
+
+                                <div><button className=" border-2 flex flex-row items-center  h-12 mt-2 text-[#1A3765] w-full  bg-white hover:bg-blue-900 hover:text-white">
+                                    <span className="flex-none px-3" >
+                                        <i className="fab fa-facebook-f"></i></span>
+                                    <span className="grow justify-center">Sign in with Facebook</span></button>
+                                    </div>
+                                <div><button className=" border-2 flex flex-row items-center  h-12 mt-2 text-[#1A3765] w-full  bg-white hover:bg-blue-900 hover:text-white">
+                                    <span className="flex-none px-3"><i className="fa-brands fa-google"></i></span><span className="grow justify-center"> Sign in with Google</span></button>
+                                </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+
+                    <div className="max-w-lg mx-auto mt-5 flex justify-center ">
+                        <p className=" text-center text-xl">
+                            &copy;2022 Temaribet. All rights reserved.
+                        </p>
+                    </div>
                 </div>
             </div>
         </>
-    )
+
+    );
 }
+
