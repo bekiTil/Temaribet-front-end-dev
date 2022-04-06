@@ -28,7 +28,7 @@ function ParentLogin() {
                       </div>
                   </div>
               </div>
-              <div class="hidden lg:block md:w-4/5 rounded-r-lg  " style={{background: `url("/parents.jpg")`, backgroundPosition: "bottom right" }}></div>
+              <div class="hidden lg:block md:w-4/5 rounded-r-lg  " style={{background: `url("/parents4.jpg")`, backgroundPosition: "top right" }}></div>
           </div>
      
   
