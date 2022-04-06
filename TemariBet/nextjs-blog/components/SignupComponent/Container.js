@@ -3,7 +3,7 @@ export default function Container() {
         <>
 
 
-            <div className="min-h-screen mx-auto   bg-white sm:bg-white md:bg-white lg:bg-[#f1f1f1]">
+            <div className="min-h-screen  mx-auto p-6  bg-white sm:bg-white md:bg-white lg:bg-[#f1f1f1]">
                 <div className="">
                     <div className="max-w-lg mx-auto">
                         <a href="#">
