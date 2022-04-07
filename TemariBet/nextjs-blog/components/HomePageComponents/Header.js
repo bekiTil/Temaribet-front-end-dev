@@ -2,11 +2,11 @@ import React from "react";
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <nav className="opacity-100 overflow-x-hidden fixed top-0 left-0 right-0 z-50 flex  items-center justify-between px-2 py-0 bg-[#FED607]">
+    <nav className=" opacity-100 font-minionPro overflow-x-hidden fixed top-0 left-0 right-0 z-50 flex  items-center justify-between px-2 py-0 bg-[#FED607]">
       <div className="w-full mx-5 md:mx-16 flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <a
-            className="text-3xl md:text-5xl lg:text-6xl  px-0  md:py-5  lg:py-6 font-fugasOne font-thin leading-relaxed inline-block mr-4  whitespace-nowrap  text-white"
+            className="text-3xl md:text-5xl lg:text-5xl 2xl:text-7xl  px-0  md:py-5  lg:py-6 font-typograhica font-thin leading-relaxed inline-block mr-4  whitespace-nowrap  text-white"
             href="#"
           >
             temaribet
@@ -31,7 +31,7 @@ const Header = () => {
             (navbarOpen ? " flex" : " hidden")
           }
         >
-          <ul className="mb-0 flex flex-col items-center justify-center lg:flex-row text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl list-none lg:ml-auto">
+          <ul className="mb-0 flex flex-col items-center justify-center lg:flex-row text-2xl lg:text-2xl  2xl:text-4xl list-none lg:ml-auto">
             <li className="nav-item h-full">
               <a
                 className="px-3 py-1  font-serif flex items-center  text-blue-900 opacity-40 font-semibold leading-snug  hover:opacity-75"
