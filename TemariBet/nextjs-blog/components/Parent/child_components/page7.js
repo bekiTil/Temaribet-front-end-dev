@@ -1,6 +1,6 @@
 const Page7 = () => {
   return (
-    <div className = " bg-[#FED607] font-minionPro">
+    <div className = " bg-[#FED607] ">
       <div>
         <h1 className="text-3xl text-[#1A3765] font-bold ">Now let me know the details</h1>
         <p  className="text-2xl text-[#5A5A5A] font-semibold  pl-0 p-2">So that we give the sweetest service</p>
