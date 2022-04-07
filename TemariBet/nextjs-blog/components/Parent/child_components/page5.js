@@ -2,27 +2,13 @@ const Page5 = () => {
   return (
     <div className = "bg-[#FED607]">
       <div>
-        <h1>I AM YONATAN</h1>
-        <p>I am coordinator at Temaribet</p>
-      </div>
-      <div>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 ">
-          Girl
-        </button>
-
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-5">
-          Boy
-        </button>
-      </div>
-      <div>
-        <label for="name">What is child's name?</label>
-        <br></br>
-        <input type="text" id="name" placeHolder="name"></input>
+        <h1>Now! Tell us about your child's need</h1>
+        <p>So that we provide a tailor made solution</p>
       </div>
 
       <div>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 ">
-          CONTINUE
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-10 px-10 ">
+          Ready
         </button>
       </div>
     </div>

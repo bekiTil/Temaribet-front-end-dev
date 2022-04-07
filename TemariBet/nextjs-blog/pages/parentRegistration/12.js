@@ -1,9 +1,9 @@
 import ParentRegistration from "../../components/Parent/ParentRegistration_8"
-import Page1 from "../../components/Parent/child_components/page1"
-export default function ParentRegistration_1() {
+import Page12 from "../../components/Parent/child_components/page12"
+export default function ParentRegistration_11() {
     return (
         <ParentRegistration>
-            <Page1/>
+            <Page12/>
         </ParentRegistration>
     )
 }

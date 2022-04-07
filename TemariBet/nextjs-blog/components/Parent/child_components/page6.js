@@ -2,22 +2,22 @@ const Page6 = () => {
   return (
     <div className = "bg-[#FED607]">
       <div>
-        <h1>Now let me know the details</h1>
-        <p>So that we give the sweetest service</p>
+        <h1>I AM YONATAN</h1>
+        <p>I am coordinator at Temaribet</p>
       </div>
       <div>
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 ">
-          Age
+          Girl
         </button>
 
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-5">
-          Grade
+          Boy
         </button>
       </div>
       <div>
-        <label for="name">What is your child's school?</label>
+        <label for="name">What is child's name?</label>
         <br></br>
-        <input type="text" id="name" placeHolder="School"></input>
+        <input type="text" id="name" placeHolder="name"></input>
       </div>
 
       <div>
