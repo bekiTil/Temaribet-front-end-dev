@@ -2,7 +2,7 @@ import Image from "next/image";
 import Page1 from "./child_components/page1";
 function Main(props) {
   return <div class="flex rounded-lg shadow-lg w-full  bg-white sm:mx-0" style={{height: "680px"}}>
-              <div class="flex flex-col w-full  lg:w-1/2 xl:w-3/5  p-4 bg-[#FED607]">
+              <div class="flex flex-col w-full  lg:w-1/2 xl:w-3/5  py-3 px-16 bg-[#FED607]">
                   <div class="flex flex-col flex-1 mb-8">
                       
                       <div class="w-full mt-4">

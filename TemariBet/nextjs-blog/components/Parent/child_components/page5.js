@@ -7,7 +7,7 @@ const Page5 = () => {
       </div>
 
       <div>
-        <button className="bg-[#1A3765] hover:bg-blue-700 text-white text-4xl font-bold px-7 py-16  rounded-full ">
+        <button className="bg-[#1A3765] hover:bg-blue-700 text-white text-4xl font-bold px-16 py-32  rounded-full ">
           Ready?
         </button>
       </div>
