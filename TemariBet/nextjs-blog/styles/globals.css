@@ -6,3 +6,13 @@
     font-family: "fugasOne";
     src: url(../public/fonts/FugazOne-Regular.ttf);
 }
+@font-face{
+    font-family:"typograhica";
+    src:url(../public/fonts/typographica.ttf)
+
+}
+@font-face{
+    font-family:"minionPro";
+    src:url(../public/fonts/MinionProRegular.ttf)
+    
+}

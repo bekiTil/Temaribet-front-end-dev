@@ -11,6 +11,8 @@ module.exports = {
         },
       fontFamily: {
         fugasOne: ["fugasOne", "serif"],
+        typograhica:["typograhica","sanserif"],
+        minionPro:["minionPro","serif"]
       },
     },
   },
