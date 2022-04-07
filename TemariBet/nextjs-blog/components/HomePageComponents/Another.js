@@ -16,6 +16,7 @@ const Another = () => {
               alt="young girl image"
               width="650"
               height = {"650"}
+              objectFit = {"cover"}
             />
           </div>
 

@@ -1,11 +1,10 @@
 import React from 'react'
-import Header from '../components/ProfilePageComponents/Header'
-import Body from '../components/ProfilePageComponents/Body'
-import Footer from '../components/ProfilePageComponents/Footer'
-
+import Header from '../components/ProfileComponents/Header'
+import Body from '../components/ProfileComponents/Body'
+import Footer from '../components/ProfileComponents/Footer'
 const profile = () => {
   return (
-    <div>
+    <div className='px-20 xl:px-16 xl:mx-36 bg-[#f2f2f2] min-h-screen'>
         <Header />
         <Body />
         <Footer />
