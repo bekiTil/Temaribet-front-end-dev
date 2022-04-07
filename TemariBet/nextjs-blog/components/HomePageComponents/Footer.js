@@ -6,10 +6,10 @@ const Footer = () => {
                     <div className="w-full -mx-6 lg:w-2/5">
                         <div className="px-4">
                             <div>
-                                <a href="#" className="text-xl font-bold font-fugasOne text-white dark:text-white hover:text-gray-700 dark:hover:text-gray-300">temaribet</a>
+                                <a href="#" className="text-xl lg:text-2xl 2xl:text-3xl font-bold font-fugasOne text-white dark:text-white hover:text-gray-700 dark:hover:text-gray-300">temaribet</a>
                             </div>
 
-                            <p className="font-serif opacity-60 pr-1 max-w-s mt-2 text-white dark:text-gray-400">High achieving, decent and trained tutors at your home</p>
+                            <p className="font-serif text-lg  opacity-60 pr-1 max-w-s mt-2 text-white dark:text-gray-400">High achieving, decent and trained tutors at your home</p>
 
                             <div className="flex mt-4 -mx-2 font-serif">
                                 <a href="#" className="mx-2 text-white dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400" aria-label="Linkden">
@@ -36,33 +36,33 @@ const Footer = () => {
                     <div className="mt-6 lg:mt-0 lg:flex-1 font-serif">
                         <div className="grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4">
                             <div>
-                                <h3 className="text-white text-md opacity-90 uppercase dark:text-white">Home tutoring</h3>
-                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Get a tutor</a>
-                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Become a tutor</a>
-                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Partner with us</a>
+                                <h3 className="text-white text-xl opacity-90 uppercase dark:text-white">Home tutoring</h3>
+                                <a href="#" className="block mt-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">Get a tutor</a>
+                                <a href="#" className="block mt-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">Become a tutor</a>
+                                <a href="#" className="block mt-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">Partner with us</a>
                             </div>
                             <div>
-                                <h3 className="text-white text-md opacity-90 uppercase dark:text-white">Contact Us</h3>
-                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Fesitivall22, 3rd floor</a>
-                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">22 Mazoriya</a>
-                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Addis Ababa, Ethiopia</a>
+                                <h3 className="text-white text-xl opacity-90 uppercase dark:text-white">Contact Us</h3>
+                                <a href="#" className="block mt-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">Fesitivall22, 3rd floor</a>
+                                <a href="#" className="block mt-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">22 Mazoriya</a>
+                                <a href="#" className="block mt-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">Addis Ababa, Ethiopia</a>
 
-                                <a href="#" className="block mt-7 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">P: +251940120591</a>
-                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">E: contact@temari-bet.com</a>
+                                <a href="#" className="block mt-7 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">P: +251940120591</a>
+                                <a href="#" className="block mt-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">E: contact@temari-bet.com</a>
                             </div>
 
                             <div>
-                                <h3 className="text-white text-md opacity-90 uppercase dark:text-white">Services</h3>
-                                <a href="#" className="block my-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">eLearning</a>
-                                <a href="#" className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Tutoring</a>
+                                <h3 className="text-white text-xl opacity-90 uppercase dark:text-white">Services</h3>
+                                <a href="#" className="block my-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">eLearning</a>
+                                <a href="#" className="block mt-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">Tutoring</a>
                                 
                             </div>
 
                             <div>
-                                <h3 className="text-white text-md opacity-90 uppercase dark:text-white">About Us</h3>
-                                <span className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Mission and Vision</span>
-                                <span className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Who we serve</span>
-                                <span className="block mt-2 text-sm opacity-60 text-white dark:text-gray-400 hover:underline">Pricing</span>
+                                <h3 className="text-white text-xl opacity-90 uppercase dark:text-white">About Us</h3>
+                                <span className="block mt-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">Mission and Vision</span>
+                                <span className="block mt-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">Who we serve</span>
+                                <span className="block mt-2 text-lg opacity-60 text-white dark:text-gray-400 hover:underline">Pricing</span>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Footer = () => {
 
 
                 <div>
-                    <p className="text-center font-serif text-xl opacity-80 mt-20 text-white dark:text-white">© 2022 Temaribet.All rights reserved</p>
+                    <p className="text-center font-serif text-xl lg:text-2xl opacity-80 mt-20 text-white dark:text-white">© 2022 Temaribet.All rights reserved</p>
                 </div>
             </div>
         </footer>
