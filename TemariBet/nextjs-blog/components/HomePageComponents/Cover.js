@@ -30,8 +30,6 @@ const Cover = () => {
                     </div>
                 </div>
             </div>
-           
-       
     )
 }
 export default Cover;

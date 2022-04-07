@@ -6,26 +6,26 @@ const Page10 = () => {
         <p>need tutoring</p>
       </div>
 
-      <div>
-        <button className="my-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 ">
-          Computer Basics
+      <div className="mt-5">
+        <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 ">
+          English
         </button>
-        <br></br>
-        <button className="my-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 ">
-          Website Development
+
+        <button className="mx-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 ">
+          Amharic
         </button>
-        <br></br>
-        <button className="my-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 ">
-          App Development
+
+        <button className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 ">
+          Afan Oromo
         </button>
-        <br></br>
       </div>
 
-      <div className = "mt-10">
+      <div>
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 ">
           CONTINUE
         </button>
       </div>
+
     </div>
   );
 };

@@ -2,14 +2,14 @@ const Page3 = () => {
   return (
     <div className = "bg-[#FED607]">
       <div>
-        <h1>Our office is located at</h1>
-        <p>Office number, 206 Dream bldg.CMC</p>
+        <h1>Let us Know you a little bit.</h1>
+        <p>So that we give you the service you deserve.</p>
       </div>
 
       <div>
-        <label for="address">Your location</label>
+        <label for="phoneN">Your phone number?</label>
         <br></br>
-        <input type="text" id="address" placeHolder="Adress"></input>
+        <input type="text" id="phoneN" placeHolder="Phone no"></input>
       </div>
 
       <div>
