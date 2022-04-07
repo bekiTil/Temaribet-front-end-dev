@@ -2,8 +2,9 @@ import React from 'react'
 
 const GradeLevel = () => {
   return (
-    <div>
-        <h1 className="mt-14 pt-10 font-serif opacity-30 text-base md:text-2xl">
+    <div className='fixed z-50'>
+        <h1 className="font-serif text-xl opacity-60 fixed">Details</h1>
+        <h1 className="mt-24 pt-10 font-serif opacity-30 text-base md:text-2xl">
         Grade Level
         </h1>
         <form>

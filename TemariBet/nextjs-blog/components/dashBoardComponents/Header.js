@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Header = () => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <nav className="opacity-100 mx-12 overflow-x-hidden sticky top-0 left-0 right-0 z-50 flex  items-center justify-between py-5 -m-2 bg-white">
+    <nav className="pb-14 opacity-100 mx-12 overflow-x-hidden sticky top-0 left-0 right-0 z-50 flex  items-center justify-between py-5 -m-2 bg-white">
       <div className="container mx-auto  flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <a
