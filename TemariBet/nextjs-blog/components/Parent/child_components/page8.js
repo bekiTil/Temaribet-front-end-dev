@@ -7,7 +7,7 @@ const Page8 = () => {
 
       <div className = "mt-8 text-center lg:text-left">
           <button className="  text-4xl shadow-lg bg-white w-34  text-[#1A3765] font-bold  py-6 pl-16 pr-12  ">
-           Academic
+          Academic
           </button>
         </div>
         <div className = "mt-8 text-center lg:text-left">
