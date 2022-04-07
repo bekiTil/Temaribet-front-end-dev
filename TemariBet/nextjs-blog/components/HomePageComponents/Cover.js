@@ -9,7 +9,6 @@ const Cover = () => {
                 <div className="lg:flex">
                     <div className="w-full sm:items-center  md:mb-20">
                         <div className="lg:w-full mx-5 md:mx-16 mt-5 md:mt-20 pt-40">
-
                             <h1 className=" text-[#1A3765] text-4xl lg:text-7xl 3xl:text-8xl  font-serif">We prepare for life.</h1>
                             <h1 className=" text-white text-4xl lg:text-7xl 3xl:text-8xl font-medium font-serif ">Not just exam!</h1>
                             <p className="mt-2 md:mb-20 text-2xl 3xl:text-4xl font-serif text-[#1A3765]">Top tutors from all over Addis Abeba
@@ -31,8 +30,6 @@ const Cover = () => {
                     </div>
                 </div>
             </div>
-           
-       
     )
 }
 export default Cover;
