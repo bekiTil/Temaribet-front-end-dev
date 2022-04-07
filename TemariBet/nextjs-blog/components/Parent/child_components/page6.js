@@ -6,11 +6,11 @@ const Page6 = () => {
         <p className="text-2xl text-[#5A5A5A] font-semibold  pl-0 p-2">I am coordinator at Temaribet</p>
       </div>
       <div className=" flex justify-start">
-        <button className=" text-4xl bg-white text-white text-[#1A3765] font-bold mr-4 my-6 px-10 py-6">
+        <button className=" text-4xl bg-white  text-[#1A3765] font-bold mr-4 my-6 px-10 py-6">
           Girl
         </button>
 
-        <button className="text-4xl bg-white text-white text-[#707070] font-bold ml-4 my-6  px-10 py-6">
+        <button className="text-4xl bg-white text-[#707070] font-bold ml-4 my-6  px-10 py-6">
           Boy
         </button>
       </div>
