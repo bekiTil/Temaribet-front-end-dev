@@ -2,13 +2,13 @@ const Page5 = () => {
   return (<div class="flex flex-col justify-between ">
     <div className = "bg-[#FED607]">
       <div>
-        <h1 className="text-3xl font-semibold pr-36">Now! Tell us about your child's need</h1>
-        <p className="text-[#5A5A5A] font-semibold text-xl pl-0 p-2">So that we provide a tailor made solution</p>
+        <h1 className="text-2xl  md:text-3xl text-[#1A3765] font-semibold 2xl:pr-30">Now! Tell us about your child's need</h1>
+        <p className=" text-lg md:text-2xl text-[#5A5A5A] font-semibold  pl-0 p-2">So that we provide a tailor made solution</p>
       </div>
 
-      <div className="">
-        <button className="bg-[#1A3765] hover:bg-blue-700 text-white text-5xl font-bold px-24 py-36  rounded-full ">
-          Ready?
+      <div className="flex justify-center pt-16">
+        <button className="bg-[#1A3765] hover:bg-blue-700 text-white text-5xl font-semibold px-20 py-36 rounded-full ">
+          READY?
         </button>
       </div>
     </div>

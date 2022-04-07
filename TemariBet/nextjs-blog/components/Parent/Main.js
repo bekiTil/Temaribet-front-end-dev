@@ -6,11 +6,9 @@ function Main(props) {
                   <div class="flex flex-col flex-1 mb-8">
                       
                       <div class="w-full ">
-                   
+        
                           {props.children}
-
                           
-
                       </div>
                   </div>
               </div>
