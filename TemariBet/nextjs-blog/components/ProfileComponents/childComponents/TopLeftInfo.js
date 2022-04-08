@@ -9,7 +9,7 @@ const TopLeftInfo = (props) => {
           <Image className='rounded-full' src={"/another.jpg"} alt = "profile photo" width={100} height={100} ></Image>
         </div>
           <h1 className='text-xl md:text-4xl mt-2'>{props.name}</h1>
-          <p className='m-1 md:mt-0'>{props.status}</p>
+          <p className='m-1 md:mt-0 text-base'>{props.status}</p>
     </div>
   )
 }
