@@ -13,13 +13,7 @@ const Page2 = () => {
           What is your name?
         </label>
         <br></br>
-        <input
-          className="mt-4 py-5 px-20 lg:px-24"
-          type="text"
-          id="phoneN"
-          placeHolder="First name &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &#124; &nbsp; &nbsp; &nbsp;   Last name"
-          width="50"
-        />
+        <input className="mt-4 py-5 w-full" type="text" id="phoneN" placeHolder=" &nbsp;  &nbsp;  &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;First name&nbsp;  &nbsp; &nbsp; &nbsp; &#124; &nbsp; &nbsp;Last name "></input>
       </div>
 
       <div className = "mt-8 text-center lg:text-left">
