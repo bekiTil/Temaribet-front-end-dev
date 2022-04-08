@@ -17,8 +17,3 @@ const Page5 = () => {
 };
 
 export default Page5;
-
-<<<<<<< HEAD
-      
-=======
->>>>>>> a0af5577527967306bf8bd4b83bd33b3d203b778
