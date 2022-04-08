@@ -5,7 +5,7 @@ import Image from "next/image"
 const ServiceCard = (props) => {
   return (
     <div className='drop-shadow-lg bg-[#E5EFFF] h-full flex flex-col justify-between'>
-      <div className='w-full px-11 py-5 '>
+      <div className='w-full px-11 py-9 '>
           <h1 className="text-[#1A3765]  font-bold text-3xl 2xl:text-5xl">{props.title}</h1>
           <p className="text-gray-500  font-sans text-lg 2xl:text-2xl  border-gray-500">{props.description}</p>
           <hr style={{border: "1px solid lightgray"}} />

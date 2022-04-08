@@ -3,13 +3,13 @@ const Feedback = () => {
     return (
         
         <section className="bg-yellow-50 md:bg-[#ECF2FB] font-serif mt-20 min-h-screen">
-            <div className="container  py-12 mx-5 md:mx-16 h-full">
+            <div className="  py-12 mx-5 md:mr-12 md:mx-16 h-full">
                 <div className="mt-7 mx-auto">
                     <h2 className="font-semibold text-4xl  md:text-5xl lg:text-6px 2xl:text-7xl text-[#1A3765]">Why parents love <span className="text-yellow-300">temaribet</span></h2>
                 </div>
 
-                <div className="px-12 mt-20 mb-36">
-                    <div className="lg:flex mt-7 text-blue-900">
+                <div className="w-full mt-20 mb-36">
+                    <div className="lg:flex lg:justify-between mt-7 text-blue-900">
                         <div className="w-full  lg:w-1/2">
                             <div className="p-8 lg:p-12">
                                 <div>

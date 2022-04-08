@@ -1,12 +1,12 @@
 const Footer = () => {
     return (
-        <footer className="bg-black dark:bg-gray-800">
-            <div className="container px-6 py-4 mx-auto">
+        <footer className="bg-black">
+            <div className="py-4 mx-5 md:mx-16">
                 <div className="lg:flex mt-7">
                     <div className="w-full -mx-6 lg:w-2/5">
-                        <div className="px-4">
+                        <div className="px-4 font-minionPro">
                             <div>
-                                <a href="#" className="text-xl lg:text-2xl 2xl:text-3xl font-bold font-fugasOne text-white dark:text-white hover:text-gray-700 dark:hover:text-gray-300">temaribet</a>
+                                <a href="#" className="text-xl lg:text-2xl 2xl:text-3xl font-bold font-typograhica text-white dark:text-white hover:text-gray-700 dark:hover:text-gray-300">temaribet</a>
                             </div>
 
                             <p className="font-serif text-lg  opacity-60 pr-1 max-w-s mt-2 text-white dark:text-gray-400">High achieving, decent and trained tutors at your home</p>
