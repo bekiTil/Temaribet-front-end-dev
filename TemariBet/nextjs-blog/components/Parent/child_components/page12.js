@@ -1,10 +1,13 @@
 const Page12 = () => {
   return (
+
     <div className = "bg-[#FED607] font-minionPro">
       <div >
         <h1 className="text-3xl text-[#1A3765] font-bold ">Tell us how much hour do you </h1>
         <p className="text-2xl text-[#5A5A5A] font-semibold  pl-0 p-2">want your child to be tutored</p>
-      </div>
+
+ </div>
+     
 
       <div className = "flex flex-row mt-5 mb-16">
         <div>
@@ -19,6 +22,7 @@ const Page12 = () => {
           <label  className=" text-[#5A5A5A]  text-sm font-semibold  pl-0 p-2"  for="price">Recommended: 1:30 hr</label>
         </div>
       </div>
+
 
       <div className = " flex flex-row mt-13">
         <div className="mr-2">
