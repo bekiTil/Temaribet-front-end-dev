@@ -1,10 +1,11 @@
 const Page12 = () => {
   return (
     <div className = "bg-[#FED607]">
-      <div>
-        <h1>Tell us how much hour do you </h1>
-        <p>want your child to be tutored</p>
+         <div className = "text-center lg:text-left">
+        <h1 className="text-2xl  md:text-3xl text-[#1A3765] font-semibold 2xl:pr-30">Tell us how much hour do you </h1>
+        <p className=" text-lg md:text-2xl text-[#5A5A5A] font-semibold  pl-0 p-2">want your child to be tutored</p>
       </div>
+     
 
       <div className = "mt-5">
         <div>
@@ -21,19 +22,19 @@ const Page12 = () => {
       </div>
 
       <div className = "mt-10">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 ">
-          Show Price
-        </button>
+      <button className=" bg-[#1A3765] hover:bg-blue-700 text-white text-3xl font-semibold py-3 px-6 ">
+            Submit
+          </button>
 
         <input type="text" id="price"></input>
         <label for="price">Registration fee: 500 ETB</label>
       </div>
 
-      <div className="mt-5">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 ">
-          Submit
-        </button>
-      </div>
+      <div className = "mt-8 text-center md:text-left">
+          <button className=" bg-[#1A3765] hover:bg-blue-700 text-white text-3xl font-semibold py-3 px-6 ">
+            Submit
+          </button>
+        </div>
     </div>
   );
 };
