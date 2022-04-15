@@ -21,7 +21,7 @@ const Page10 = () => {
       </div>
 
       <div className = "mt-8 text-center md:text-left">
-        <button className=" bg-[#1A3765] hover:bg-blue-700 text-white text-3xl font-semibold py-3 px-6 ">
+        <button className=" bg-[#818792] hover:bg-blue-700 text-white text-3xl font-semibold py-3 px-6 ">
           CONTINUE
         </button>
       </div>

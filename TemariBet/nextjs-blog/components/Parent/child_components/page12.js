@@ -10,15 +10,15 @@ const Page12 = () => {
      
 
       <div className = "flex flex-row mt-5 mb-16">
-        <div>
+        <div className="flex-1">
           <label className="text-lg block text-[#5A5A5A] font-semibold  pl-0 py-2" for="price">How many days per week</label>
-          <input  className="h-12 text-lg" type="text" id="days" placeHolder = "Days"></input>
+          <input  className="h-12 w-full text-lg" type="text" id="days" placeHolder = "Days"></input>
           <label className=" text-[#5A5A5A] text-sm font-semibold  pl-0 p-2" for="price"> Recommended: 3 days</label>
         </div>
 
-        <div className = "mx-3">
+        <div className = " flex-1 mx-3">
           <label className="text-lg block text-[#5A5A5A] font-semibold  pl-0 py-2" for="price">How many hours per day</label>
-          <input className="h-12 text-lg" type="text" id="price" placeHolder = "Hour"></input>
+          <input className="h-12 w-full text-lg" type="text" id="price" placeHolder = "Hour"></input>
           <label  className=" text-[#5A5A5A]  text-sm font-semibold  pl-0 p-2"  for="price">Recommended: 1:30 hr</label>
         </div>
       </div>
