@@ -9,7 +9,7 @@ const Page3 = () => {
       <div className="mt-28 text-center lg:text-left" >
         <label className="tracking-wide font-semibold text-2xl " for="phoneN">Your phone number?</label>
         <br></br>
-        <input className="mt-4 py-5 px-20 lg:px-24" type="text" id="phoneN" placeHolder="+251&nbsp;  &nbsp; &nbsp; &nbsp; &#124; &nbsp; &nbsp;Phone number "></input>
+        <input className="mt-4 py-5 w-full" type="text" id="phoneN" placeHolder=" &nbsp;  &nbsp;  &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;+251&nbsp;  &nbsp; &nbsp; &nbsp; &#124; &nbsp; &nbsp;Phone number "></input>
       </div>
 
       <div className = "mt-8 text-center lg:text-left">

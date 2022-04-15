@@ -7,7 +7,7 @@ const Another = () => {
   return (
 
     <section className="bg-white font-serif">
-      <div className=" px-12 py-16 mx-5 md:mx-16">
+      <div className=" py-16 mx-5 md:mx-16">
         <div className="items-center lg:flex">
           <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-2/5 lg:mr-8 px-4 lg:border-r border-gray-500 ">
             <Image

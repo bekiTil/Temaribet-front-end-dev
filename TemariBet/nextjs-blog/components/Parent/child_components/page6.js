@@ -14,13 +14,12 @@ const Page6 = () => {
           Boy
         </button>
       </div>
-      <div className = "mt-12">
+      <div className = "mt-12 text-center lg:text-left">
           <label className = "tracking-wide font-bold text-2xl" for="phoneN">What is child's name?</label>
           <br></br>
-          <input className = "mt-4 py-5 px-24" type="text" id="phoneN" placeHolder="First name &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &#124; &nbsp; &nbsp; &nbsp;  Last name" width = "50"/>
-        </div>
+          <input className="mt-4 py-5 w-full" type="text" id="phoneN" placeHolder=" &nbsp;  &nbsp;  &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;FirstName&nbsp;  &nbsp; &nbsp; &nbsp; &#124; &nbsp; &nbsp;LastName "></input></div>
   
-        <div className = "mt-8 text-center md:text-left">
+        <div className = "mt-8 text-center lg:text-left">
           <button className=" bg-[#1A3765] hover:bg-blue-700 text-white text-3xl font-semibold py-3 px-6 ">
             CONTINUE
           </button>

@@ -5,38 +5,46 @@ import "antd/dist/antd.css";
 
 const BottomRow = (props) => {
   return (
-    <div className='w-full mt-10'>
-        <Row gutter={[0,8]} justify={"space-between"} >
-            <Col xs={24} sm={11} xl={4} md={7}  >
-                <BottomCard 
-                    title = "Available in"
-                />
-            </Col>
-                
-            <Col xs={24} sm={11} xl={4} md={7}  >
-                <BottomCard 
-                    title = "Available in"
-                />
-            </Col> 
+    <section class="container mx-auto">
+        <div class="flex items-center justify-center w-full">
+            <div class="grid gap-4 mt-8 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 w-full justify-center">
+                <div class="w-full max-w-xs">
+                    <BottomCard 
+                        title = "Available in"
+                        type = "available"
+                    />
+                </div>
 
-            <Col xs={24} sm={11} xl={4} md={7}>
-                <BottomCard 
-                    title = "Available in"
-                />
-            </Col>
+                <div class="w-full max-w-xs">
+                    <BottomCard 
+                            title = "Best At"
+                            type = "bestat"
+                        />
+                </div>
 
-            <Col xs={24} sm={11} xl={4}  md={7} >
-                <BottomCard 
-                    title = "Available in"
-                />
-            </Col>
-            <Col xs={24} sm={11} xl={4}  md={7} >
-                <BottomCard 
-                    title = "Available in"
-                />
-            </Col>
-        </Row>
-    </div>
+                <div class="w-full max-w-xs">
+                    <BottomCard 
+                            title = "Fluency"
+                            type = "fluency"
+                        />
+                </div>
+
+                <div class="w-full max-w-xs">
+                    <BottomCard 
+                            title = "Hobby"
+                            type = "hobby"
+                        />
+                </div>
+
+                <div class="w-full max-w-xs">
+                    <BottomCard 
+                            title = "Vision"
+                            type = "vision"
+                        />
+                </div>
+            </div>
+        </div>
+    </section>
   )
 }
 

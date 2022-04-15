@@ -1,13 +1,13 @@
 const Page9 = () => {
   return (
-    <div className = "bg-[#FED607] font-minionPro">
+    <div className = "bg-[#FED607] font-miniPro">
       <div>
         <h1 className="text-3xl text-[#1A3765] font-bold " >In what area does your child</h1>
         <p className="text-2xl text-[#5A5A5A] font-semibold  pl-0 p-2">need tutoring</p>
       </div>
 
       <div className="text-center md:text-left mt-10" >
-        <input type="radio" value="" name="" id="all" />
+        <input className="mr-2" type="radio" value="" name="" id="all" />
 
         <label className="text-xl text-[#5A5A5A]  font-semibold  pl-0 p-2" for="all">All subjects 2 in grade 6 </label>
         <br></br>

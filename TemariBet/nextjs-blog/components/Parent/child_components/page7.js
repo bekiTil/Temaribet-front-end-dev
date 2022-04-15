@@ -17,8 +17,8 @@ const Page7 = () => {
       <div className = "mt-12 text-center lg:text-left">
         <label className = "tracking-wide font-bold text-2xl" for="name">What is your child's school?</label>
         <br></br>
-        <input className = "mt-4 py-5 px-24" type="text" id="name" placeHolder="School"></input>
-      </div>
+        <input className="mt-4 py-5 w-full" type="text" id="name" placeHolder=" &nbsp;  &nbsp;  &nbsp;   &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;School &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; "></input>
+        </div>
 
       <div className = "mt-8 text-center lg:text-left">
         <button className=" bg-[#1A3765] hover:bg-blue-700 text-white text-3xl font-semibold py-3 px-6 ">

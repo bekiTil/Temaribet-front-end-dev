@@ -3,7 +3,7 @@ import Stats from "./child_components/Statistics.js";
 const Achievement=()=>{
     return (
         <div className="pb-40 pt-9 bg-gradient-to-r font-serif from-[#142F43] via-black-900 to-black ">
-            <div className='ml-5 md:ml-16'>
+            <div className='mx-5 md:mx-16'>
                 <Col sm = {24}  style={{justifyContent:"center"}}>
                     <div>
                     <h1 className="text-3xl sm:text-2xl  md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-6xl  text-bold text-white pt-4 pb-1  "> We are the little angel of your kids but we can

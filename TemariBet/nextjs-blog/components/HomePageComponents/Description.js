@@ -2,7 +2,7 @@ const Description =()=>{
     return (
         
         <section>
-            <div className=" flex flex-col py-8   mx-5 md:ml-16 md:mt-20">
+            <div className=" flex flex-col py-8   mx-5 md:mx-16 md:mt-20">
               <div className="flex flex-col w-full  text-left prose-blue">
                 <div className=" mx-auto">
                   <h1 className="font-serif  text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl text-[#1A3765]  font-semibold">A tutoring company your whole</h1>

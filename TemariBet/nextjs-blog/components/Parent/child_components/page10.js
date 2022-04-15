@@ -6,23 +6,25 @@ const Page10 = () => {
         <p className="text-2xl text-[#5A5A5A] font-semibold  pl-0 p-2" >need tutoring</p>
       </div>
 
-      <div className="flex flex-row mt-10 pt-12 ">
-        <button className=" flex-1 mr-2 text-xl bg-white hover:bg-blue-700 hover:text-white text-blue-900 font-bold py-3 px-6 ">
+      <div className="flex flex-row mt-10 pt-12 max-w-full">
+        <button className=" flex-1 shadow-lg mr-2 text-xl bg-white hover:bg-blue-700 hover:text-white text-blue-900 font-bold py-3 px-6 ">
           English
         </button>
 
-        <button className=" flex-1 mr-2 text-xl bg-white hover:bg-blue-700 hover:text-white text-blue-900 font-bold py-3 px-6 ">
+        <button className=" flex-1 shadow-lg mr-2 text-xl bg-white hover:bg-blue-700 hover:text-white text-blue-900 font-bold py-3 px-6 ">
           Amharic
         </button>
 
-        <button className=" flex-1 mr-2 text-xl bg-white hover:bg-blue-700 hover:text-white text-blue-900 font-bold py-3 px-6 ">
+        <button className=" flex-1 shadow-lg text-xl  lg:mr-2  bg-white hover:bg-blue-700 hover:text-white text-blue-900 font-bold py-3 px-6 ">
           Afan Oromo
         </button>
       </div>
 
+
       <div className = "mt-8 text-center md:text-left">
         <button className=" bg-[#818792] hover:bg-blue-700 text-white text-3xl font-semibold py-3 px-6 ">
-          CONTINUE
+
+     Continue
         </button>
       </div>
 
