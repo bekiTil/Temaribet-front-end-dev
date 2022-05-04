@@ -5,7 +5,7 @@ import Footer from '../components/dashBoardComponents/Footer'
 
 const profile = () => {
   return (
-    <div>
+    <div className="font-minionPro">
         <Header />
         <Body />
         <Footer />

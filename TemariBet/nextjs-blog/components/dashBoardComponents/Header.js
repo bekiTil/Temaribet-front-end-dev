@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container mx-auto  flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <a
-            className="text-3xl md:text-5xl px-0  py-1 font-fugasOne font-thin leading-relaxed inline-block mr-4  whitespace-nowrap  text-yellow-300"
+            className="text-3xl md:text-5xl px-0  py-1 font-typograhica font-thin leading-relaxed inline-block mr-4  whitespace-nowrap  text-yellow-300"
             href="#"
           >
             temaribet
